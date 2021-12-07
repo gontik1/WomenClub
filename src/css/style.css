@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+html{
+    font-family: Inter, sans-serif;
+}
 .container {
     position: relative;
     max-width: 1440px;
@@ -28,7 +31,6 @@
 .header_link {
     height: 22px;
     margin-left:32px ;
-    font-family: Inter;
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -79,9 +81,8 @@
 .title_text h1{
     padding: 138px 0 136px 0;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -102,7 +103,6 @@
     .title_text h1 {
     padding: 64px 0 64px 0;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 32px;
     }
 }
@@ -131,9 +131,8 @@
 .events .get_involved {
     width: 480px;
     padding: 22.5px 0;
-    font-family: Inter;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     color: #fff;
 }
@@ -199,11 +198,9 @@
 } 
 
 .blogs_bloсk span{
-    
     flex-grow: 0;
-    font-family: Inter;
     font-size: 14px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.57;
@@ -220,9 +217,8 @@
 
 .blogs h2{
     margin: 56px 89px 0 88px;
-    font-family: Inter;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -233,9 +229,8 @@
 }
 
 .blogs h4{
-    font-family: Inter;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.63;
@@ -245,9 +240,8 @@
 
 .blogs p{
     display: inline;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 1.67;
     text-align: left;
     color: #000;
@@ -261,9 +255,8 @@
     border: solid 1px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -285,9 +278,8 @@
     border: solid 1px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -309,9 +301,8 @@
     border: solid 1px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -398,6 +389,22 @@
     width: 184px;
     height: 100px;
     }
+.blogs_bloсk span{
+    font-size: 12px;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.img_heart{
+    padding-bottom: 2px;
+    margin-right: 8px;
+}
+.blog_img{
+    padding-bottom: 2px;
+    margin-left: 29px;
+    margin-right: 8px;
+}
 }
 
 @media (max-width: 375px){
@@ -450,15 +457,24 @@
     width: 327px;
     height: 124px;
 }
-
-
+.blogs_bloсk span{
+    font-size: 14px;
+    align-items:center;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.img_heart{
+    padding-bottom: 2px;
+    margin-right: 12px;
+}
+.blog_img{
+    padding-bottom: 2px;
+}
 }
 /* news */
 
 
-.News .container{
-
-}
 
 .news_title {
     max-width: 1200px;
@@ -469,9 +485,8 @@
 
 
 .news_title h2{
-    font-family: Inter;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -494,11 +509,10 @@
     display: inline;
     display: block;
     margin: 0 auto;
-    margin: 16px 0 32px 0;
+    margin: 16px 0 0 0;
     max-width: 800px;
-    font-family: Inter;
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.56;
@@ -510,14 +524,14 @@
 .news_btn {
     display: block;
     margin: 0px auto;
+    margin-top: 32px;
     width: 180px;
     height: 56px;
     background-color: #b9506a;
 
     flex-grow: 0;
-    font-family: Inter;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.4;
@@ -534,12 +548,13 @@
 @media (max-width: 768px){
 .news_title{
     max-width: 768px;
-    min-height: 384px;
-    margin: 32px 0;
+    margin: 32px 0 0 0;
     padding: 0 158px;
+    padding-bottom: 24px;
 }
 .news_title h2 {
     font-size: 32px;
+    padding-top: 32px;
 
 }
 .news_title .news_img {
@@ -551,11 +566,14 @@
 
 .news_text{
     font-size: 14px;
+    margin-top: 16px;
 }
 .news_btn{
     width: 159px;
     height: 40px;
-    margin: 24px auto;
+    margin: 0 auto;
+    margin-top: 24px;
+    
 }
 .news_btn a{
     font-size: 16px;
@@ -588,8 +606,6 @@
 }
 
 
-
-
 /* Join */
 
 .join_us {
@@ -612,9 +628,8 @@
 
 .join_block1 h2 {
     flex-grow: 0;
-    font-family: Inter;
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.33;
@@ -627,9 +642,8 @@
 .join_block1 p{
     padding-top: 8px;
     flex-grow: 0;
-    font-family: Inter;
     font-size: 32px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.56;
@@ -645,9 +659,8 @@
     width: 159px;
     height: 40px;
     background-color: #b9506a;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.75;
@@ -671,6 +684,7 @@
 .join_block1 h2{
     font-size: 32px;
     line-height: 1.56;
+
 }
     
 .join_text{
@@ -686,10 +700,12 @@
     max-width: 310px;
     height: 264px;
     padding: 64px 32px 64px 32px;
+    margin-top: 32px;
 }
 .join_img{
     max-width: 458px;
-    height: 264px;    
+    height: 264px;
+    margin-top: 32px ;    
 }
 .join_btn a{
     font-size: 14px;
@@ -754,17 +770,17 @@
 .footer_link li{
     list-style-type: none;
     margin-top: 12px;
-
-
+}
+.legal li{
+    margin-top: 13px;
 }
 
 .footer_link .get_in_touch,
 .footer_link .follow_us,
 .footer_link .legal{
     flex-grow: 0;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -775,9 +791,8 @@
 
 .footer_link span{
     flex-grow: 0;
-    font-family: Inter;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.6;
@@ -788,9 +803,8 @@
 
 
 .footer_link a{
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -813,9 +827,8 @@
     text-align: center;
     padding: 15px;
     background-color: #232323;
-    font-family: Inter;
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.5;
@@ -836,6 +849,10 @@
     gap: 48px;
     margin: 0 0 0 116px;
 }
+.legal li{
+    margin-top: 16px;
+    font-size: 14px;
+}
 .footer_link span{
     font-size: 16px;
 }
@@ -851,12 +868,14 @@
 
 @media (max-width: 375px){
 .footer_block1{
-    margin-top: 24px;
     display: block;
     max-width: 375px;
     min-height: 364px;
     padding-left: 16px;
     padding-top: 24px;
+}
+.join_img{
+    margin: 0;
 }
 .footer_icon {
     width: 72px;
@@ -888,6 +907,10 @@
 .legal{
     margin-top: 24px;
     margin-left: 40px;
+    font-size: 14px;
+}
+.legal li{
+    margin-top: 16px;
     font-size: 14px;
 }
 .footer_block2{
