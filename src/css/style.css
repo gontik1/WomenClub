@@ -462,7 +462,6 @@ html{
 }
 .blogs_bloсk span{
     font-size: 14px;
-    align-items:center;
     display:flex;
     justify-content: center;
     align-items:center;
@@ -480,9 +479,9 @@ html{
 
 
 .news_title {
-    width: 1200px;
+    max-width: 1200px;
     margin: 56px auto;
-    padding: 32px 200px;
+    padding: 32px 0;
     background-color: #fafafa;
 }
 
@@ -509,10 +508,9 @@ html{
 }
 
 .news_text {
-    display: inline;
     display: block;
     margin: 0 auto;
-    margin: 16px 0 0 0;
+    margin-top: 16px;
     max-width: 800px;
     font-size: 18px;
     font-weight: 400;
@@ -560,7 +558,6 @@ html{
 .news_title{
     max-width: 768px;
     margin: 32px 0 0 0;
-    padding: 0 158px;
     padding-bottom: 24px;
 }
 .news_title h2 {
