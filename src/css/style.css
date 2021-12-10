@@ -27,10 +27,14 @@ html{
     width: 72px;
     height: 40px;
 }
-
+.header_menu{
+    display: flex;
+    gap: 32px;
+}
 .header_link {
+
     height: 22px;
-    margin-left:32px ;
+    /* margin-left:32px ; */
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -48,6 +52,7 @@ html{
 .header .container {
     padding: 10px 40px;
 }
+
 } 
 
 @media (max-width: 375px){
@@ -619,7 +624,7 @@ html{
 
 }
 .join_block1 {
-    max-width: 767px;
+    max-width: 509px;
     height: 400px;
     background-color: #283d87;
     padding: 107px 91px;
@@ -672,7 +677,7 @@ html{
 
 
 .join_img {
-    max-width: 767px;
+    max-width: 692px;
     height: 400px;
     display: block;
 }
@@ -723,12 +728,12 @@ html{
 }
 
 .join_block1{
-    max-width: 375px;
+    max-width: 767px;
     padding: 64px 64px 64px 65px;
 }
 .join_img{
     height: 264px;
-    max-width: 375px;
+    max-width: 767px;
     padding: 0;
     object-fit: cover;
 }
