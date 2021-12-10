@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 .container {
     position: relative;
@@ -546,12 +546,12 @@ html{
     text-decoration: none;
 }
 
-@media (max-width: 1024px){
+/* @media (max-width: 1024px){
     .news_title {
         max-width: 1024;
         padding: 0 158px;
     }
-}
+} */
 
 
 @media (max-width: 768px){
@@ -575,6 +575,7 @@ html{
 .news_text{
     font-size: 14px;
     margin-top: 16px;
+    max-width: 452px;
 }
 .news_btn{
     width: 159px;
