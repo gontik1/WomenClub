@@ -27,14 +27,11 @@ html{
     width: 72px;
     height: 40px;
 }
-.header_menu{
-    display: flex;
-    gap: 32px;
-}
+
 .header_link {
 
     height: 22px;
-    /* margin-left:32px ; */
+    margin-left:32px ;
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -63,7 +60,7 @@ html{
 .header_link{
     font-size: 12px;
     margin: 0 auto;
-    padding-left: 16px;
+    /* padding-left: 16px; */
 }
 
     
