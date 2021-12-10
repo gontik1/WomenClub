@@ -539,19 +539,8 @@ html{
     letter-spacing: normal;
     text-align: center;
     cursor: pointer;
-}
-
-.news_btn a{
     color: #fff;
-    text-decoration: none;
 }
-
-/* @media (max-width: 1024px){
-    .news_title {
-        max-width: 1024;
-        padding: 0 158px;
-    }
-} */
 
 
 @media (max-width: 768px){
@@ -582,11 +571,10 @@ html{
     height: 40px;
     margin: 0 auto;
     margin-top: 24px;
+    font-size: 16px;
     
 }
-.news_btn a{
-    font-size: 16px;
-}
+
 
 }
 @media (max-width: 375px){
@@ -679,11 +667,9 @@ html{
     letter-spacing: normal;
     text-align: center;
     cursor:pointer;
-}
-.join_btn a{
     color: #fff;
-    text-decoration: none;
 }
+
 
 .join_img {
     max-width: 767px;
