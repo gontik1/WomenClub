@@ -631,7 +631,7 @@ html{
 
 }
 .join_block1 {
-    max-width: 508px;
+    max-width: 767px;
     height: 400px;
     background-color: #283d87;
     padding: 107px 91px;
@@ -686,7 +686,7 @@ html{
 }
 
 .join_img {
-    max-width: 692px;
+    max-width: 767px;
     height: 400px;
     display: block;
 }
