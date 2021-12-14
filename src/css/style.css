@@ -28,10 +28,13 @@ html{
     height: 40px;
 }
 
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    width: 329px;
+}
 .header_link {
-
     height: 22px;
-    margin-left:32px ;
     font-size: 14px;
     font-weight: 500;
     font-stretch: normal;
@@ -50,6 +53,7 @@ html{
     padding: 10px 40px;
 }
 
+
 } 
 
 @media (max-width: 375px){
@@ -60,11 +64,10 @@ html{
 .header_link{
     font-size: 12px;
     margin: 0 auto;
-    /* padding-left: 16px; */
 }
 
     
-    .header_menu-wr .logo_icon{
+.header_menu-wr .logo_icon{
     width: 45px;
     height: 25px;
     margin: 0 37px 0 0;
@@ -123,8 +126,8 @@ html{
 .events .container {
     display: flex;
     justify-content:center;
-    height: 123px;
-    max-width: 1440;
+    min-height: 123px;
+    max-width: 1440px;
 
 }
 
@@ -137,6 +140,7 @@ html{
     font-weight: 900;
     text-align: center;
     color: #fff;
+    text-align: center;
 }
 
 .events .our_mission {
@@ -418,7 +422,6 @@ html{
     align-items:center;
 }
 .blogs h2{
-    margin-top: 135px;
     font-size: 24px;
 }
 .blog_1{
@@ -553,7 +556,6 @@ html{
 }
 .news_title h2 {
     font-size: 32px;
-    padding-top: 32px;
 
 }
 .news_title .news_img {
@@ -685,6 +687,7 @@ html{
     font-size: 32px;
     line-height: 1.56;
 
+
 }
     
 .join_text{
@@ -742,6 +745,7 @@ html{
 
 .footer_icon {
     filter: invert();
+    margin-right: 10px;
 }
 
 .footer_block1 {
@@ -757,15 +761,12 @@ html{
 
 
 .footer_link{
-    max-width: 613px;
-    min-height: 144px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 80px;
-    margin: 0 0 0 0;
-    padding: 0;
+    justify-content: space-between;
+    width: 613px;
+    min-height: 144px;
+    /* margin: 0 0 0 0;
+    padding: 0; */
 }
 
 .footer_link li{
@@ -773,7 +774,7 @@ html{
     margin-top: 12px;
 }
 .legal li{
-    margin-top: 13px;
+    display: flex;
 }
 
 .footer_link .get_in_touch,
@@ -804,6 +805,7 @@ html{
 
 
 .footer_link a{
+    display: flex;
     font-size: 16px;
     font-weight: 400;
     font-stretch: normal;
@@ -845,13 +847,13 @@ html{
     padding: 32px 40px ;
 }
 .footer_link{
-    max-width: 500px;
-    min-height: 136px;
-    gap: 48px;
+    width: 500px;
+    height: 136px;
+
 
 }
 .legal li{
-    margin-top: 16px;
+    margin-top: 14px;
     font-size: 14px;
 }
 .footer_link span{
@@ -859,6 +861,7 @@ html{
 }
 .footer_link a{
     font-size: 14px;
+    display: flex;
 }
 .footer_block2{
     max-width: 768px;
@@ -884,11 +887,8 @@ html{
     margin: 0 66px 16px 0;
 }
 .footer_link {
-    display: flex;
-    justify-content:left;
-    flex-wrap: wrap;
-    margin: 0;
-    gap: 0;
+    width: 375px;
+    display: block;
 }
 
 .footer_link a{
@@ -898,21 +898,24 @@ html{
     font-size: 16px;
 }
 .get_in_touch{
-    margin-right: 100px;
     font-size: 14px;
+
 }
 .follow_us{
     margin-top: 24px;
     font-size: 14px;
 }
 .legal{
+    position: relative;
+    bottom: 157px;
+    left: 100px;
     margin-top: 24px;
     margin-left: 40px;
     font-size: 14px;
 }
 .legal li{
-    margin-top: 16px;
     font-size: 14px;
+    margin-top: 14px;
 }
 .footer_block2{
     max-width: 375px;
